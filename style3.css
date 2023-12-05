@@ -1,0 +1,69 @@
+body{
+    background-image: url("a.jpeg"); 
+    background-size:cover;
+    height: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.main-content{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.3); 
+    backdrop-filter: blur(50px);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+.login a{
+    text-decoration: none; 
+    font-size: 30px; 
+    color: black; 
+    font-weight: bold;
+}
+
+.search input{ 
+    margin-top: 20px;
+}
+.search input{ 
+    height: 30px; 
+    margin-top: 20px;
+    width: 270px;
+    border: 2px solid rgb(97, 95, 95);
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    margin-left: 10px;
+}
+
+.search input::placeholder{
+    color: black;
+    padding-left: 20px;
+}  
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn button{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(44, 44, 190);
+    border: none;
+    border-radius: 30px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+

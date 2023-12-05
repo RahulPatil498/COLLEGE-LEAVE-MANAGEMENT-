@@ -1,0 +1,89 @@
+body{
+    background-image: url("1b.jpeg"); 
+    background-size:cover;
+    height: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.main-content{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.3); 
+    backdrop-filter: blur(50px);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login a{
+    font-size: 30px; 
+    color: black; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search input{ 
+    margin-top: 20px;
+}
+.search input{ 
+    height: 30px; 
+    margin-top: 20px;
+    width: 270px;
+    border: 2px solid rgb(97, 95, 95);
+    background-color: transparent;
+    border-radius: 30px;
+    color: black;
+    margin-left: 10px;
+}
+
+.search input::placeholder{
+    color: rgb(61, 58, 58);
+    padding-left: 20px;
+}  
+.forgate{
+    display: flex;
+    justify-content: center;
+}
+.forgate a{
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn button{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(18, 93, 154);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.btn a{
+    color: white;
+    text-decoration: none; 
+}
+.sign a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sign a:hover{
+    color: white;
+}
+
+.forgate a:hover{
+    color: white;
+}
